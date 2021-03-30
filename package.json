@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "myuser": "node index.js --username vitor --room 'dollars chat' --hostUri localhost",
+    "myuseruri": "node index.js --username vitor --room 'dollars chat' --hostUri https://localhost:9898",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
